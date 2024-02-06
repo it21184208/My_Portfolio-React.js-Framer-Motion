@@ -2,6 +2,7 @@ import "./hero.scss";
 import { motion } from "framer-motion";
 import scroll_icon from "../Assests/scroll.png";
 import hero_icon from "../Assests/hero3.png";
+import "../../app.scss";
 
 const textVariants = {
   initial: {
