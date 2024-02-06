@@ -1,4 +1,4 @@
-@import "../../app.scss";
+// @import "../../app.scss";
 
 .contact {
   height: 100%;
@@ -8,7 +8,7 @@
   align-items: center;
   gap: 50px;
 
-  @include mobile {
+  @media only screen and (max-width: 768px) {
     width: 100%;
     padding: 10px;
     flex-direction: column;
@@ -20,7 +20,7 @@
     flex-direction: column;
     gap: 40px;
 
-    @include mobile {
+    @media only screen and (max-width: 768px) {
       gap: 20px;
       text-align: center;
       align-items: center;
@@ -31,7 +31,7 @@
       font-size: 100px;
       line-height: 88px;
 
-      @include mobile {
+      @media only screen and (max-width: 768px) {
         font-size: 36px;
       }
     }
@@ -45,7 +45,7 @@
     flex: 1;
     position: relative;
     
-    @include mobile {
+    @media only screen and (max-width: 768px) {
       padding: 50px;
       width: 100%;
     }
@@ -71,7 +71,7 @@
         color: white;
         border-radius: 5px;
 
-        @include mobile {
+        @media only screen and (max-width: 768px) {
           padding: 10px;
         }
       }
@@ -82,7 +82,7 @@
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
-        @include mobile {
+        @media only screen and (max-width: 768px) {
           padding: 10px;
         }
       }
