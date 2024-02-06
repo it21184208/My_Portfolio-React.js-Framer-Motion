@@ -24,12 +24,15 @@
       font-size: 20px;
       color: gray;
       text-align: right;
+      
+      
     }
 
     hr {
       width: 500px;
       border: none;
       border-top: 0.5px solid gray;
+      
 
       @include mobile {
         width: 300px;
@@ -119,12 +122,20 @@
         gap: 20px;
         padding: 10px;
       }
+  h2{
+    margin-bottom: 15px;
+  }
 
       p {
+
+        margin-top: 10px;
+    margin-bottom: 10px;
         @include mobile {
           display: none;
         }
       }
+
+      
 
       button {
         padding: 10px;

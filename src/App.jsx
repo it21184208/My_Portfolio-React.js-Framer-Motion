@@ -11,7 +11,7 @@ import Services from "./components/services/Services";
 const App = () => {
   return (
     <div>
-      <Cursor />
+      
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -22,7 +22,7 @@ const App = () => {
       <section>
         <Services />
       </section>
-      <section id="Portfolio">
+      <section id="Projects">
         <Parallax type="portfolio" />
       </section>
       <Portfolio />

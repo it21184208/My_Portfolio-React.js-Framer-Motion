@@ -17,7 +17,8 @@
     }
 
     span {
-      font-weight: bold;
+  font-weight: 700;
+  font-size: 28px;
 
       @include mobile {
         display: none;
@@ -26,11 +27,11 @@
 
     .social {
       display: flex;
-      gap: 20px;
+      gap: 18px;
 
       img {
-        width: 18px;
-        height: 18px;
+        width: 22px;
+        height: 22px;
       }
     }
   }
